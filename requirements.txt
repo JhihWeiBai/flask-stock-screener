@@ -35,5 +35,7 @@ urllib3==2.4.0
 Werkzeug==3.1.3
 yfinance==0.2.55
 
+gunicorn==21.2.0 #上傳render必備
+
 #可於Anaconda Prompt中創建新環境，並使用 pip install -r requirements.txt，安裝requirements.txt內環境提示
 #記得更新這個檔案，尤其在安裝新套件後用 pip freeze > requirements.txt 更新requirements.txt內的環境提示。
